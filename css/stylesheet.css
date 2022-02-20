@@ -1,0 +1,41 @@
+p {
+  color: darkSlateGrey;
+  text-align:left;
+
+}
+
+#test-id-1 {
+  color:RosyBrown;
+}
+
+.test-class{
+  color: darkSlateGrey;
+}
+
+a {
+  color:DarkOliveGreen
+}
+a:hover {
+  font-weight:bold;
+}
+
+h1{
+  text-align:center;
+  font:300% Sans-serif;
+}
+
+img[src]{
+  width:50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+hr {
+  margin-top: auto;
+  border-style: solid;
+  color: RosyBrown;
+}
+
+body {
+  background-color: Linen;
+}
