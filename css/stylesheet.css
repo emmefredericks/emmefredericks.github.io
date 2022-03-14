@@ -104,7 +104,8 @@ hr {
     .content {
       background-color: Linen;
       padding: 20px;
-      grid-column:1;
-      grid-row:2;
+      grid-column: 1;
+      grid-row: 2;
     }
   }
+}
