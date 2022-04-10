@@ -1,4 +1,4 @@
-const endpoint= 'http://www.boredapi.com/api/activity/';
+const endpoint= "https://www.boredapi.com/api/activity/";
 
 const activityButton = document.querySelector('#js-new-activity');
 activityButton.addEventListener('click',getActivity);
