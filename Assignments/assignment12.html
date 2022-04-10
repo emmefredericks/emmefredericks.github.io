@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Activity Generator</title>
+    <script defer src="../js/assignment12.js"charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/assignment12.css">
+  </head>
+
+  <body>
+    <div class="container">
+  <form id="suggestion_box" action="" method="post">
+    <h3>Suggestion box</h3>
+    <fieldset>
+      <textarea placeholder="Suggestion" tabindex="5" name="suggestion_text" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="suggestion_box" data-submit="...Sending" value="text to send">Submit</button>
+    </fieldset>
+  </form>
+</div>
+    <div class="app">
+  <header>Random Activity Generator</header>
+  <section class="activities">
+    <div class="activity-text" id="js-activity-text"></div>
+  </section>
+  <section class="controls">
+    <button type="button" id="js-new-activity" class="new-activity button">
+      Generate a new activity
+    </button>
+  </section>
+</div>
+  </body>
+</html>
+
+<!--My extension is a suggestion box for other random activities. I used html and CSS to make this. I learned it and adjusted it from the codepen website-->
