@@ -1,44 +1,69 @@
 p {
   color: darkSlateGrey;
-  text-align:left;
+  text-align:center;
   font-family:Optima, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 #test-id-1 {
   color:RosyBrown;
 }
 .test-class{
   color: darkSlateGrey;
+  text-align:center;
+  display: block;
+  font-size: 70px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Montserrat",serif;
 }
 a {
-  color:DarkOliveGreen
+  color:DarkOliveGreen;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Optima", sans-serif;
 }
 a:hover {
   font-weight:bold;
 }
-h1{
+h1 {
   text-align:center;
-  font:300% Sans-serif;
+  display: block;
 }
 .contactimg {
-  width: 30%;
+  width: 20%;
   text-align:center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .art {
-  width: 40%;
+  width: 50%;
   text-align:center;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
 }
+
+.art2 {
+  width: 50%;
+  text-align:center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
 .propic {
-  width:40%;
-  padding: 5px;
-  display: inline;
-  float:right;
+  width: 30%;
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 hr {
   margin-top: auto;
@@ -64,12 +89,22 @@ hr {
       background-color: Linen;
       text-align: center;
       padding: 5px;
-      grid-column:span 4;
-      grid-row:span 4;
+      grid-column:span 5;
+      grid-row:span 5;
     }
+
     .nav li{
-      text-align:left;
-      padding: 0px 20px;
+      text-align:center;
+      padding: 0px 40px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+    }
+
+    .nav2 li{
+      text-align:center;
+      padding: 5px 50px;
       border-bottom: none;
       height: 50px;
       line-height: 50px;
@@ -77,9 +112,10 @@ hr {
     }
     .content{
       background-color: Linen;
-      padding: 8px;
+      padding: 20px;
       grid-column:span 4;
       grid-row:span 4;
+      margin:30px ;
     }
 
 @media screen and (max-width: 399px) {

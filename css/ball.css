@@ -3,15 +3,15 @@
   <title>Magic 8 Ball</title>
 
   <style type="text/css">
-    h1 { font-weight: 100; font-size: 2.5em;}
+    h1 { font-weight: 80; font-size: 2.5em;}
 
     #content {
      width: 600px;
      margin: 0 auto;
      margin-top: 50px;
-     border: 1px dotted black;
      text-align: center;
-     font-family: 'Helvetica Neue', arial;
+     font-family: "Montserrat",serif;
+     color: DarkOliveGreen;
      font-weight: 100;
    }
 
@@ -39,13 +39,15 @@
       font-size: 5em;
       margin: 20% auto;
       color: white;
+      text-align: center;
     }
 
     p#answer {
       padding: 23px;
-      color: lightblue;
+      color: #FFFFFF;
       letter-spacing: 2px;
       font-size:18px;
+      text-align: center;
     }
 
     #question {
@@ -57,22 +59,7 @@
 
     #info {
       font-size: 22px;
+      text-align: center;
     }
 
   </style>
-
- </head>
- <body>
-  <div id="content">
-    <h1>Magic 8 ball on SSaurel's Channel</h1>
-    <p id="info">Ask me what you want to know and click on the Magic 8 Ball</p>
-    <input type="text" id="question" />
-    <div id="eight-ball" class="eight-ball">
-      <div class="answer">
-        <p id="eight">8</p>
-        <p id="answer"></p>
-      </div>
-    </div>
-  </div>
- </body>
-</html>
