@@ -15,6 +15,3 @@ RewriteCond % {REQUEST_Twitter} !-f
 RewriteCond % {REQUEST_Hypatia} !-f
 RewriteCond % {REQUEST_Underdog} !-f
 RewriteRule ^ ([^\.]+) $ $1.html [NC,L]
-
-RewriteCond % {THE_REQUEST} ^GET\ (.*)\.html\HTTP
-RewriteRule(.*)/index$ $1/ [R=301]
