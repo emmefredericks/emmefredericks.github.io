@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteCond % {REQUEST_About} !-f
+RewriteCond % {REQUEST_About} !-f
 RewriteCond % {REQUEST_Dress} !-f
 RewriteCond % {REQUEST_PersonalPackage} !-f
 RewriteCond % {REQUEST_CounterfeitDesign} !-f
@@ -14,3 +15,6 @@ RewriteCond % {REQUEST_Twitter} !-f
 RewriteCond % {REQUEST_Hypatia} !-f
 RewriteCond % {REQUEST_Underdog} !-f
 RewriteRule ^ ([^\.]+) $ $1.html [NC,L]
+RewriteCond % {THE_REQUEST}
+/index.html HTTP [NC]
+RewriteRule(.*)index.html$ /$1 [R=301,L]
