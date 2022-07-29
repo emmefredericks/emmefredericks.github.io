@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteCond % {REQUEST_About} {REQUEST_Dress} !-f
+RewriteCond % {REQUEST_About} !-f
+RewriteCond % {REQUEST_Dress} !-f
 RewriteRule ^ ([^\.]+) $ $1.html [NC,L]
