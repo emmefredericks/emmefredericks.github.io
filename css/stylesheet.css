@@ -162,6 +162,10 @@ span{
     background-color: white;
   }
 
+  a{
+    float:right;
+  }
+  
   .nav li{
     float:right;
     border-bottom: none;
