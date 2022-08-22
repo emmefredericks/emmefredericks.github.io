@@ -6,7 +6,7 @@ p {
   font-size: 25px;
 }
 
-.name {
+/*.name {
   text-align: left;
   font-size: 70px;
   font-weight:lighter;
@@ -14,7 +14,7 @@ p {
   text-transform: uppercase;
   color:black;
   padding: 0px 10px 5px 10px;
-}
+}*/
 
 a {
   color:black;
@@ -127,6 +127,18 @@ span{
   transition: 1s ease;
 }
 
+.header img {
+  float: center;
+  padding-bottom:10px
+  width: 140px;
+  height: 140px;
+  background: #555;
+}
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
 
 @media screen and (min-width: 400px) {
     body {
