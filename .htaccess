@@ -15,4 +15,5 @@ RewriteCond % {REQUEST_Twitter} !-f
 RewriteCond % {REQUEST_Hypatia} !-f
 RewriteCond % {REQUEST_Underdog} !-f
 RewriteCond % {REQUEST_Boostbar} !-f
+RewriteCond % {REQUEST_BangBeauty} !-f
 RewriteRule ^ ([^\.]+) $ $1.html [NC,L]
