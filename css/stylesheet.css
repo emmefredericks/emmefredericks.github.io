@@ -128,7 +128,7 @@ span{
 }
 
 .header img {
-  float: left;
+  float: center;
   padding-bottom:10px
   width: 115px;
   height: 115px;
