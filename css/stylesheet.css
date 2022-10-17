@@ -128,7 +128,7 @@ span{
 }
 
 .header img {
-  float: center;
+  float: left;
   padding-bottom:10px
   width: 115px;
   height: 115px;
@@ -165,7 +165,7 @@ span{
   a{
     float:right;
   }
-  
+
   .nav li{
     float:right;
     border-bottom: none;
